@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Dec  4 13:37:43 2025
+# Process ID         : 18388
+# Current directory  : C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent25152 C:\Users\fahre\Downloads\Group4FinalProject_DSG-main\Group4FinalProject_DSG-main\project_dsg_hummingbird_eminem\project_dsg_hummingbird_eminem.xpr
+# Log file           : C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/vivado.log
+# Journal file       : C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem\vivado.jou
+# Running On         : SSSSS
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 5 5600H with Radeon Graphics         
+# CPU Frequency      : 3294 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 25131 MB
+# Swap memory        : 1610 MB
+# Total Virtual      : 26741 MB
+# Available Virtual  : 6166 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.xpr
+add_files -norecurse {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/StateCore.vhd} {C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/KeyScheduler.vhd} {C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/LFSR16.vhd} {C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/StateRegisterBank.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/StateCore.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/StateCore.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/KeyScheduler.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/KeyScheduler.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/LFSR16.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/LFSR16.vhd}}
+export_ip_user_files -of_objects  [get_files {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/StateRegisterBank.vhd}}] -no_script -reset -force -quiet
+remove_files  {{C:/Fahreza/Kampus/Semester 3/Digital System Design/Lab/Final Project/StateRegisterBank.vhd}}
+file mkdir C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new
+close [ open C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/KeyScheduler.v w ]
+add_files C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/KeyScheduler.v
+set_property target_language VHDL [current_project]
+update_compile_order -fileset sources_1
+close [ open C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/KeyScheduler.vhd w ]
+add_files C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/KeyScheduler.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/KeyScheduler.v] -no_script -reset -force -quiet
+remove_files  C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/KeyScheduler.v
+close [ open C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/LFSR16.vhd w ]
+add_files C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/LFSR16.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/StateRegisterBank.vhd w ]
+add_files C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/StateRegisterBank.vhd
+update_compile_order -fileset sources_1
+close [ open C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/StateCore.vhd w ]
+add_files C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sources_1/new/StateCore.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sim_1/new/tb_StateCore.vhd w ]
+add_files -fileset sim_1 C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/project_dsg_hummingbird_eminem.srcs/sim_1/new/tb_StateCore.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_StateCore.tcl
+save_wave_config {C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/tb_StateCore_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/tb_StateCore_behav.wcfg
+set_property xsim.view C:/Users/fahre/Downloads/Group4FinalProject_DSG-main/Group4FinalProject_DSG-main/project_dsg_hummingbird_eminem/tb_StateCore_behav.wcfg [get_filesets sim_1]
+close_sim

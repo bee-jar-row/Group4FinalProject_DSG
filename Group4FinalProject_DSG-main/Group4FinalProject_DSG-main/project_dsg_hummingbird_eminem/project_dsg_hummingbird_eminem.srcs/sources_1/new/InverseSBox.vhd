@@ -15,7 +15,7 @@ begin
     -- reverse lookup (undo S3 substitution)
     case y is
       when "0000" => a <= "1100";  -- y=0  ? 12
-      when "0001" => a <= "0105";  -- y=1  ? 5
+      when "0001" => a <= "0101";  -- y=1  ? 5
       when "0010" => a <= "0000";  -- y=2  ? 0
       when "0011" => a <= "1110";  -- y=3  ? 14
       when "0100" => a <= "1001";  -- y=4  ? 9
@@ -35,3 +35,4 @@ begin
     end case;
   end process;
 end BehavioralInverseSBox;
+

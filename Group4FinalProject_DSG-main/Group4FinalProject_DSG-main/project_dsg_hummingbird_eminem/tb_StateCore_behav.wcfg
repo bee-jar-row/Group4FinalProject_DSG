@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_StateCore_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_StateCore" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,997 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,001 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="174"></NameColumnWidth>
+      <ValueColumnWidth column_width="311"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/tb_StateCore/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/key_256" type="array">
+      <obj_property name="ElementShortName">key_256[255:0]</obj_property>
+      <obj_property name="ObjectShortName">key_256[255:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k1" type="array">
+      <obj_property name="ElementShortName">k1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k2" type="array">
+      <obj_property name="ElementShortName">k2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k3" type="array">
+      <obj_property name="ElementShortName">k3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k4" type="array">
+      <obj_property name="ElementShortName">k4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k5" type="array">
+      <obj_property name="ElementShortName">k5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k6" type="array">
+      <obj_property name="ElementShortName">k6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k7" type="array">
+      <obj_property name="ElementShortName">k7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k7[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k8" type="array">
+      <obj_property name="ElementShortName">k8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k8[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k9" type="array">
+      <obj_property name="ElementShortName">k9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k9[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k10" type="array">
+      <obj_property name="ElementShortName">k10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k10[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k11" type="array">
+      <obj_property name="ElementShortName">k11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k11[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k12" type="array">
+      <obj_property name="ElementShortName">k12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k12[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k13" type="array">
+      <obj_property name="ElementShortName">k13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k13[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k14" type="array">
+      <obj_property name="ElementShortName">k14[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k14[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k15" type="array">
+      <obj_property name="ElementShortName">k15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k15[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/k16" type="array">
+      <obj_property name="ElementShortName">k16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">k16[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/lfsr_seed" type="array">
+      <obj_property name="ElementShortName">lfsr_seed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_seed[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/lfsr_load" type="logic">
+      <obj_property name="ElementShortName">lfsr_load</obj_property>
+      <obj_property name="ObjectShortName">lfsr_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/lfsr_en" type="logic">
+      <obj_property name="ElementShortName">lfsr_en</obj_property>
+      <obj_property name="ObjectShortName">lfsr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/lfsr_q" type="array">
+      <obj_property name="ElementShortName">lfsr_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs1_next" type="array">
+      <obj_property name="ElementShortName">rs1_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_next[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs2_next" type="array">
+      <obj_property name="ElementShortName">rs2_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_next[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs3_next" type="array">
+      <obj_property name="ElementShortName">rs3_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs3_next[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs4_next" type="array">
+      <obj_property name="ElementShortName">rs4_next[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs4_next[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs1_we" type="logic">
+      <obj_property name="ElementShortName">rs1_we</obj_property>
+      <obj_property name="ObjectShortName">rs1_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs2_we" type="logic">
+      <obj_property name="ElementShortName">rs2_we</obj_property>
+      <obj_property name="ObjectShortName">rs2_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs3_we" type="logic">
+      <obj_property name="ElementShortName">rs3_we</obj_property>
+      <obj_property name="ObjectShortName">rs3_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs4_we" type="logic">
+      <obj_property name="ElementShortName">rs4_we</obj_property>
+      <obj_property name="ObjectShortName">rs4_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs1_q" type="array">
+      <obj_property name="ElementShortName">rs1_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs2_q" type="array">
+      <obj_property name="ElementShortName">rs2_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs3_q" type="array">
+      <obj_property name="ElementShortName">rs3_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs3_q[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_StateCore/rs4_q" type="array">
+      <obj_property name="ElementShortName">rs4_q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rs4_q[15:0]</obj_property>
+   </wvobject>
+</wave_config>

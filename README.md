@@ -53,11 +53,11 @@ A testbench (tb_TopLevel.vhd) is included to simulate and observe the behavior o
 
 The system includes:
 
-  -A 256-bit key input
-  -A 16-bit LFSR
-  -Four 16-bit internal registers (RS1–RS4)
-  -A round counter & control FSM
-  -A simple datapath for round operations
+      -A 256-bit key input
+      -A 16-bit LFSR
+      -Four 16-bit internal registers (RS1–RS4)
+      -A round counter & control FSM
+      -A simple datapath for round operations
 
 Here is the Project Structure:
 
